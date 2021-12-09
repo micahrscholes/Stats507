@@ -30,7 +30,7 @@ cat run_ps8_q0.sh
 date
 
 
-python ps8_q0.py.py $n_procs
+python ps8_q0.py $n_procs
 
 date
 echo "Done."
