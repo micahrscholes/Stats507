@@ -15,7 +15,7 @@
 #SBATCH --time=30:00
 #SBATCH --account=stats507f21_class
 #SBATCH --partition=standard
-#SBATCH --output=/home/%u/logs/%x-%j-4.log
+#SBATCH --output=/home/%u/%x-%j-4.log
 
 # application: ----------------------------------------------------------------
 n_procs=5
