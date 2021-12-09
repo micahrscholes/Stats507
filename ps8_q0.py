@@ -8,8 +8,8 @@ import sklearn.ensemble
 
 
 
-url = "/Users/micahscholes/Downloads/superconduct/train.csv"
-url2 = "/Users/micahscholes/Downloads/superconduct/unique_m.csv"
+url = "train.csv"
+url2 = "unique_m.csv"
 superconduct = pd.read_csv(url)
 unique_m = pd.read_csv(url2)
 form = unique_m.material
