@@ -29,7 +29,7 @@ cat run_ps8_q0.sh
 # run the script
 date
 
-cd /home/jbhender/github/Stats507_F21/demo/
+
 python ps8_q0.py.py $n_procs
 
 date
