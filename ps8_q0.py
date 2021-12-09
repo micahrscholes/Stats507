@@ -64,6 +64,7 @@ y_val = super_val.loc[:, 'critical_temp'].to_numpy()
 x_test = super_test.loc[:, 'number_of_elements':'wtd_std_Valence'].to_numpy()
 y_test = super_test.loc[:, 'critical_temp'].to_numpy()
 
+metrics = defaultdict(list)
 for fold, (train, test) in enumerate(folds):
     # training data
     x_in = x_train[train, :]
