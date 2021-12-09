@@ -73,9 +73,9 @@ for fold, (train, test) in enumerate(folds):
     x_test = x_train[test, :]
     y_test = y_train[test]
     rf = skl.ensemble.RandomForestRegressor(
-                n_estimators=nt,  # number of trees
+                n_estimators=400,  # number of trees
                 criterion='mse',
-                max_depth=md,      # maximum number of splits
+                max_depth=18,      # maximum number of splits
                 max_features='sqrt',
                 max_samples=0.5,   # smaller yields more regularization
                 n_jobs=3
